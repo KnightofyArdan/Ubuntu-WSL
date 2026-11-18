@@ -58,3 +58,5 @@ sudo systemctl restart xrdp
 4. Go back to the General tab, type ```127.0.0.1:3390``` in the Computer box, and click Connect.
 5. When the security certificate popup appears, check Don't ask me again for connections to this computer and click Yes.
 6. On the xrdp login screen, leave Session set to Xorg, enter your Ubuntu username and password, and click OK.
+
+![Ubuntu desktop running in WSL](display.png)
