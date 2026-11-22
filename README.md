@@ -21,4 +21,4 @@ Manual step to install Ubuntu in WSL and enable desktop manager
 4. Connect in Full Screen from Windows
 - Press **Win + R** and type ```mstsc```
 - Type ```127.0.0.1:3390``` in the Computer box, and click Connect.
-![Ubuntu desktop running in WSL](display.png)
+![Ubuntu desktop running in WSL](ubuntu-wsl.png)
