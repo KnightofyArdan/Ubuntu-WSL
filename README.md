@@ -1,8 +1,9 @@
 ## Ubuntu WSL
+Manual step to install Ubuntu in WSL and enable desktop manager
 1. Enable Hyper-V to run Virtual Machine on a windows hardware device
 * On your Windows, klick Start and type **Turn Windows Feature On or Off**
 * Check **Hyper-V** and **Virtual Machine Platform**
-2. Install WSA on Microsoft PowerShell
+2. Install WSL on Microsoft PowerShell
   Install WSL
   ```
   WSL --install
@@ -50,13 +51,6 @@ sudo systemctl restart xrdp
 ```
 
 4. Connect in Full Screen from Windows
-   Press ``` Win + R ```
-
-1. Press **Win + R** type ```mstsc```
-2. Click Show Options at the bottom-left corner of the Remote Desktop window.
-3. Go to the Display tab and drag the Display configuration slider all the way to the right (Full Screen).
-4. Go back to the General tab, type ```127.0.0.1:3390``` in the Computer box, and click Connect.
-5. When the security certificate popup appears, check Don't ask me again for connections to this computer and click Yes.
-6. On the xrdp login screen, leave Session set to Xorg, enter your Ubuntu username and password, and click OK.
-
+- Press **Win + R** and type ```mstsc```
+- Type ```127.0.0.1:3390``` in the Computer box, and click Connect.
 ![Ubuntu desktop running in WSL](display.png)
