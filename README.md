@@ -18,15 +18,7 @@ Manual step to install Ubuntu in WSL and enable desktop manager
    bash -c "$(curl -fsSL https://raw.githubusercontent.com/knightofyardan/Ubuntu-WSL/master/ubuntu-setup.sh)"
    ```
    
-5. Start the xrdp Service
-
-Restart the xrdp service so all configuration changes take effect:
-bash
-```
-sudo systemctl restart xrdp
-```
-
-5. Connect in Full Screen from Windows
+4. Connect in Full Screen from Windows
 - Press **Win + R** and type ```mstsc```
 - Type ```127.0.0.1:3390``` in the Computer box, and click Connect.
 ![Ubuntu desktop running in WSL](display.png)
